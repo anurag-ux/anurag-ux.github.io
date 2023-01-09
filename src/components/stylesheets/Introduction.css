@@ -1,0 +1,81 @@
+.main-introduction{
+    position: inherit;
+    overflow: auto;
+}
+.main-picture{
+    position: absolute;
+    padding-left: 25%;
+    padding-bottom: 0;
+    width: 345px;
+    height: 476px;
+}
+.intro{
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 0;
+    margin-top: 10px;
+    
+}
+span.keyword{
+    color: #B482E5;
+}
+.tag{
+    color: white;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-bottom: 0;
+    max-width: 25%;
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+}
+.self-praise{
+    color: #EAC9FF;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 50%;
+    padding-right: 10%;
+    padding-bottom: 0;
+    max-width: 20%;
+    margin-top: 0;
+}
+.experience{
+    color: white;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+.roles{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.current-role{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    display: inline-block;
+}
+img.refactor-logo{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.experience-description{
+    width: 60%;
+    font-size: 18px;
+    margin-top: 0;
+}
