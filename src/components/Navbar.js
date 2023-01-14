@@ -17,10 +17,9 @@ function Navbar() {
                         <a href="/connect" className="navbar-link">Connect</a>
                     </li>
                 </ul>
-                <a className="download-resume" href="shorturl.at/benOU">
+                <a className="download-resume" href="https://shorturl.at/benOU" target="_blank">
                     Download Resume</a>
             </nav>
-            <hr className='header-divider' />
         </div>
     );
 }

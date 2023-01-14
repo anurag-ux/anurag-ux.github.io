@@ -26,7 +26,7 @@ nav ul.navbar-list {
     padding: 0;
     justify-content: space-evenly;
     padding-left: 35%;
-    padding-right: 20%;
+    padding-right: 10%;
     width: 30%;
 }
 
@@ -87,7 +87,7 @@ nav a.download-resume:hover {
 
 hr.header-divider {
     border: 0;
-    height: 1px;
+    height: 0.5px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25));
 }
 
