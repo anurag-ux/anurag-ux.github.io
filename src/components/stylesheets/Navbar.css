@@ -42,7 +42,7 @@ nav li.navbar-item {
 }
 
 nav a.navbar-link {
-    color: #ffffff;
+    color: #acacac;
     padding: 0 10px;
     transition: color 0.3s ease;
     align-items: center;
@@ -95,5 +95,5 @@ a {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
