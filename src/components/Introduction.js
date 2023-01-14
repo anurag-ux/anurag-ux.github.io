@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './stylesheets/Introduction.css'
 
 function Introduction() {
+    const [designation, setDesignation] = useState("Product Manager");
+    const designations = ["Product Manager", "Frontend Developer", "Blockchain Developer"];
+    let currentDesignation = 0;
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+          // update designation text here
+          setDesignation(designations[currentDesignation]);
+          currentDesignation = (currentDesignation + 1) % designations.length;
+        }, 2000); // 30 minutes
+        return () => clearInterval(interval);
+      }, []);
+
     return (
         <div id='intro' className='main-introduction'>
             <img alt='main' className='main-picture'
@@ -15,7 +28,7 @@ function Introduction() {
             </div>
             <div className='experience'>
                 <p className='roles'>
-                    I'm a <span className='designation keyword'>Product Manager</span>
+                    I'm a <span className='designation keyword'>{designation}</span>
                 </p>
                 <p className='current-role'>
                     Currently, I'm an Associate Product Manager at <img alt='logo' className='refactor-logo'

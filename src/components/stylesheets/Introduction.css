@@ -1,15 +1,19 @@
-.main-introduction{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.main-introduction {
     position: inherit;
     overflow: auto;
 }
-.main-picture{
+
+.main-picture {
     position: absolute;
     padding-left: 25%;
     padding-bottom: 0;
     width: 345px;
     height: 476px;
 }
-.intro{
+
+.intro {
     color: white;
     font-family: 'Quicksand';
     font-style: normal;
@@ -22,10 +26,12 @@
     margin-top: 10px;
 
 }
-span.keyword{
+
+span.keyword {
     color: #B482E5;
 }
-.tag{
+
+.tag {
     color: white;
     font-family: 'Quicksand';
     font-style: normal;
@@ -39,7 +45,8 @@ span.keyword{
     letter-spacing: 0.02em;
     margin-bottom: 30px;
 }
-.self-praise{
+
+.self-praise {
     color: #EAC9FF;
     font-family: 'Quicksand';
     font-style: normal;
@@ -51,31 +58,45 @@ span.keyword{
     max-width: 20%;
     margin-top: 0;
 }
-.experience{
+
+.experience {
     color: white;
     padding-top: 10%;
     padding-left: 10%;
     font-family: 'Quicksand';
     font-style: normal;
 }
-.roles{
+
+.roles {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 3%;
 }
-.current-role{
+
+.current-role {
     font-size: 20px;
     font-weight: 400;
     margin-top: 0;
     display: inline-block;
 }
-img.refactor-logo{
+
+img.refactor-logo {
     vertical-align: middle;
     padding-right: 5px;
 }
 
-.experience-description{
+.experience-description {
     width: 60%;
     font-size: 18px;
     margin-top: 0;
+}
+
+.designation {
+    /* Add CSS for fading transition */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.keyword.designation {
+    opacity: 1;
 }
