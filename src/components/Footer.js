@@ -3,7 +3,7 @@ import './stylesheets/Footer.css'
 
 function Footer() {
     return (
-        <div className="footer-div">
+        <div id="connect" className="footer-div">
             <div className="message">
                 <p className="lets-connect">
                     Let's connect!
