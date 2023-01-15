@@ -12,8 +12,8 @@ const ImageCarousel = ({ images }) => {
   }, [currentIndex, images]);
 
   return (
-    <div>
-      <img className="project-snap transition" src={images[currentIndex]} alt="project screenshot" />
+    <div className='right-section'>
+      <img className="project-snap transition" src={images[currentIndex]} alt="lendify project screenshots" />
     </div>
   );
 }

@@ -1,22 +1,21 @@
 .footer-div {
     padding: 0 10%;
-    padding-top: 5%;
-    padding-bottom: 1%;
     position: inherit;
     display: flex;
     width: 80%;
     justify-content: center;
+    background-color: #0F0220;
+    margin-top: 10%;
 }
 
 .lets-connect {
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
     letter-spacing: 0.02em;
     width: 400px;
     justify-content: center;
-    padding-top: 1%;
 }
 .message{
     display: flex;
@@ -25,11 +24,17 @@
 .social-icons{
     padding-top: 5%;
     width: 100%;
+    transition: transform 0.2s ease-out;
 }
 .social{
     padding-left: 25px;
+    transition: transform 0.2s ease-out;
 }
 
 .social-icons .social img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+.transition {
+    transition: all 0.1s ease-in-out;
 }

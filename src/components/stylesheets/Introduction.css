@@ -3,6 +3,7 @@
 .main-introduction {
     position: inherit;
     overflow: auto;
+    padding-top: 5%;
 }
 
 .main-picture {

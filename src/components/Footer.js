@@ -8,7 +8,7 @@ function Footer() {
                 <p className="lets-connect">
                     Let's connect!
                 </p>
-                <div className="social-icons">
+                <div className="social-icons transition">
                     <a className="social"
                         href="mailto:anuraghit317@gmail.com"
                         target="_blank"
