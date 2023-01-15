@@ -23,8 +23,6 @@ function Introduction() {
             </img>
             <div className='introduction'>
                 <p className='intro'>Hello! I Am <span className='keyword'>Anurag Shandilya</span></p>
-                <p className='tag'>Judge a book by its cover...</p>
-                <p className='self-praise'>And judge my skills by my projects</p>
             </div>
             <div className='experience'>
                 <p className='roles'>
