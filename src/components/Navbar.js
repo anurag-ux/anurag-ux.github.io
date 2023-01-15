@@ -21,12 +21,13 @@ function Navbar() {
                         <a href="/" className="navbar-link" onClick={handleClickHome}>Home</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#" className="navbar-link" onClick={handleClickProjects}>Projects</a>
+                        <a href="/" className="navbar-link" onClick={handleClickProjects}>Projects</a>
                     </li>
                 </ul>
                 <a rel="noreferrer" className="download-resume" href="https://shorturl.at/benOU" target="_blank">
                     Download Resume</a>
             </nav>
+            <hr className="header-divider"/>
         </div>
     );
 }

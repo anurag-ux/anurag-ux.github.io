@@ -4,17 +4,18 @@ import './stylesheets/Introduction.css'
 
 function Introduction() {
     const [designation, setDesignation] = useState("Product Manager");
-    const designations = ["Product Manager", "Frontend Developer", "Blockchain Developer"];
-    let currentDesignation = 0;
 
     useEffect(() => {
+        const designations = ["Product Manager", "Frontend Developer", "Blockchain Developer"];
+        let currentDesignation = 0;
         const interval = setInterval(() => {
           // update designation text here
           setDesignation(designations[currentDesignation]);
           currentDesignation = (currentDesignation + 1) % designations.length;
-        }, 2000); // 30 minutes
+        }, 2000); // 2 seconds
         return () => clearInterval(interval);
       }, []);
+
 
     return (
         <div id='intro' className='main-introduction'>

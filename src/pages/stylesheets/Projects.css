@@ -1,9 +1,9 @@
 .container {
     display: flex;
     padding: 0 10%;
-    padding-top: 7em;
+    padding-top: 5em;
     width: 80%;
-    padding-bottom: 5%;
+    padding-bottom: 10em;
 }
 
 .left-section {
@@ -91,7 +91,7 @@ p.description {
 
 .project-snap {
     transform: scale(1);
-    border-radius: 25px;
+    border-radius: 5%;
     width: 100%;
     transition: transform 0.2s ease-out;
 }

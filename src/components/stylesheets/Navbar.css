@@ -13,20 +13,19 @@ nav {
     box-shadow: 0px 6px 22px -3px rgba(0, 0, 0, 0.1);
     width: 100%;
     padding: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     display: flex;
     align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 nav ul.navbar-list {
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     justify-content: space-evenly;
-    padding-left: 25%;
-    padding-right: 10%;
     width: 30%;
 }
 
@@ -42,7 +41,7 @@ nav li.navbar-item {
 }
 
 nav a.navbar-link {
-    color: #BEA9EA;
+    color: #d7d5db;
     padding: 0 10px;
     transition: color 0.3s ease;
     align-items: center;
@@ -65,7 +64,7 @@ nav a.download-resume {
     -webkit-transition: .2s;
     background: rgba(106, 67, 160, 0.2);
     border: 1px solid #D4A5FF;
-    padding: 16px 15px;
+    padding: 14px 15px;
     align-items: center;
     color: #fff;
     letter-spacing: 1px;
@@ -90,8 +89,8 @@ nav a.download-resume:hover {
 
 hr.header-divider {
     border: 0;
-    height: 0.5px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25));
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgb(36, 11, 59), rgba(255, 255, 255, 0.1));
 }
 
 a {
