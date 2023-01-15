@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import Footer from "../components/Footer"
 import './stylesheets/Introduction.css'
 
 function Introduction() {
@@ -22,7 +22,10 @@ function Introduction() {
                 src='https://gistcdn.githack.com/anurag-ux/a5340bb04294e23431da2c806f25ccb4/raw/e46ad68648e00f57707d51c9ce5f0417cb15b6bb/main-picture.svg'>
             </img>
             <div className='introduction'>
-                <p className='intro'>Hello! I Am <span className='keyword'>Anurag Shandilya</span></p>
+                <p className='intro'>Hello! I Am
+                <span className='keyword' style={{'padding-left': '1%'}}>Anurag Shandilya</span>
+                <Footer/>
+                </p>
             </div>
             <div className='experience'>
                 <p className='roles'>

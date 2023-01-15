@@ -3,7 +3,7 @@
 .main-introduction {
     position: inherit;
     overflow: auto;
-    padding-top: 10%;
+    padding-top: 2.5%;
 }
 
 .main-picture {
@@ -24,7 +24,6 @@
     padding-right: 10%;
     padding-top: 0;
     padding-bottom: 0;
-    margin-top: 5%;
 }
 
 span.keyword {
@@ -61,7 +60,7 @@ span.keyword {
 
 .experience {
     color: white;
-    padding-top: 10%;
+    padding-top: 7.5%;
     padding-left: 10%;
     font-family: 'Quicksand';
     font-style: normal;
@@ -93,10 +92,12 @@ img.refactor-logo {
 
 .designation {
     /* Add CSS for fading transition */
+    color: #B482E5;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
 
 .keyword.designation {
+    color: #B482E5;
     opacity: 1;
 }

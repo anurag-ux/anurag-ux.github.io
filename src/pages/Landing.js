@@ -1,8 +1,7 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Introduction from "../components/Introduction";
 import Navbar from "../components/Navbar";
-import Projects from "../components/Projects";
+import Projects from "../pages/Projects"
 import MoveToTopButton from "../components/Movetotop"
 
 import './stylesheets/Landing.css';
@@ -14,7 +13,6 @@ function Landing() {
             <Introduction />
             <MoveToTopButton/>
             <Projects />
-            <Footer/>
         </div>
     );
 }

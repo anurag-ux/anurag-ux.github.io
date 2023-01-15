@@ -3,6 +3,7 @@
     padding: 0 10%;
     padding-top: 7em;
     width: 80%;
+    padding-bottom: 5%;
 }
 
 .left-section {
@@ -18,7 +19,6 @@
 
 .button-container {
     display: flex;
-    justify-content: space-between;
     padding-right: 50px;
     padding-left: 0;
 }
@@ -27,7 +27,13 @@ h1.title {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 800;
-    color: #CCD6F6;
+    background: linear-gradient(4deg,rgba(67, 136, 221, 1), rgba(255, 69, 129, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
     font-size: 45px;
     font-style: normal;
     font-weight: 600;
