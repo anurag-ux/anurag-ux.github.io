@@ -1,7 +1,13 @@
 import React from "react";
-import './stylesheets/Projects.css'
+import ImageCarousel from "./ImageCaraousel";
+import './stylesheets/Projects.css';
 
 function Projects() {
+    const images = [
+        'https://i.ibb.co/q1CTHXy/Screenshot-2023-01-14-at-9-25-49-PM.png',
+        'https://i.ibb.co/LhTJYhs/Screenshot-2023-01-15-at-10-16-24-AM.png',
+        'https://i.ibb.co/HDTtMW0/Screenshot-2023-01-15-at-10-17-39-AM.png'
+      ]
     const handleButtonClick = (event, url) => {
         event.preventDefault();
         window.open(url, "_blank");
@@ -33,11 +39,13 @@ function Projects() {
                     </button>
                 </div>
             </div>
-            <div className="right-section">
-                <img src="https://i.ibb.co/q1CTHXy/Screenshot-2023-01-14-at-9-25-49-PM.png" alt="image" />
-            </div>
+            <ImageCarousel images={images}/>
         </div>
     );
 }
 
 export default Projects;
+
+/*<div className="right-section">
+    <img className="project-snap" src="https://i.ibb.co/q1CTHXy/Screenshot-2023-01-14-at-9-25-49-PM.png" alt="project screenshot" />
+</div>*/

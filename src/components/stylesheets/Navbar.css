@@ -42,7 +42,7 @@ nav li.navbar-item {
 }
 
 nav a.navbar-link {
-    color: #acacac;
+    color: #BEA9EA;
     padding: 0 10px;
     transition: color 0.3s ease;
     align-items: center;
@@ -65,17 +65,20 @@ nav a.download-resume {
     -webkit-transition: .2s;
     background: rgba(106, 67, 160, 0.2);
     border: 1px solid #D4A5FF;
-    border-radius: 10px;
     padding: 16px 15px;
     align-items: center;
-    transition: .2s;
     color: #fff;
     letter-spacing: 1px;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 nav a.download-resume:hover {
-    border: 1px solid #d18b2e;
+    color: #BEA9EA;
+    border: 1px solid;
+    border-image: linear-gradient(to right, 
+    rgba(255, 69, 129, 1), 
+    rgba(67, 136, 221, 1)) 1;
     transform: scale(1.1);
 }
 
