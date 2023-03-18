@@ -27,7 +27,10 @@
 }
 
 span.keyword {
-    color: #B482E5;
+    /* background: linear-gradient(4deg,rgba(67, 136, 221, 1), rgba(255, 69, 129, 1)); */
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .tag {

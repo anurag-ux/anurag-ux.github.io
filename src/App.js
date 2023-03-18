@@ -7,14 +7,6 @@ import './App.css';
 import Landing from './pages/Landing'
 
 function App() {
-  /*
-  useEffect(() => {
-    document.addEventListener('contextmenu', (e) => e.preventDefault());
-    return () => {
-      document.removeEventListener('contextmenu', (e) => e.preventDefault());
-    };
-  }, []);
-  */
   return (
     <Router>
       <Routes>

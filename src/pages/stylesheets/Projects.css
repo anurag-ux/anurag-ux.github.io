@@ -27,7 +27,8 @@ h1.title {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 800;
-    background: linear-gradient(4deg,rgba(67, 136, 221, 1), rgba(255, 69, 129, 1));
+    /* background: linear-gradient(4deg,rgba(67, 136, 221, 1), rgba(255, 69, 129, 1)); */
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -97,8 +98,12 @@ p.description {
 }
 
 .project-snap:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: zoom-in;
+}
+
+.project-snap:active{
+    transform: scale(1.5);
 }
 
 .transition {

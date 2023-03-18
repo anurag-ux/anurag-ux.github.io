@@ -13,7 +13,7 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div className='right-section'>
-      <img className="project-snap transition" src={images[currentIndex]} alt="lendify project screenshots" />
+      <img className="project-snap transition" src={images[currentIndex]} alt="lendify project screenshots"/>
     </div>
   );
 }

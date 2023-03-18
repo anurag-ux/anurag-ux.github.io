@@ -40,7 +40,7 @@ nav li.navbar-item {
 
 nav a.navbar-link {
     color: #d7d5db;
-    padding: 0 10px;
+    padding: 1% 1%;
     transition: color 0.3s ease;
     align-items: center;
     text-decoration: none;
@@ -60,9 +60,10 @@ nav a.download-resume {
     -webkit-align-items: center;
     -ms-flex-align: center;
     -webkit-transition: .2s;
+    margin-left: 50%;
     background: rgba(106, 67, 160, 0.2);
     border: 1px solid #D4A5FF;
-    padding: 14px 15px;
+    padding: 1% 1%;
     align-items: center;
     color: #fff;
     letter-spacing: 1px;
@@ -71,18 +72,12 @@ nav a.download-resume {
 }
 
 nav a.download-resume:hover {
-    color: #BEA9EA;
+    color: #bea9ea;
     border: 1px solid;
     border-image: linear-gradient(to right, 
     rgba(255, 69, 129, 1), 
     rgba(67, 136, 221, 1)) 1;
     transform: scale(1.1);
-}
-
-.resume-image {
-    position: absolute;
-    width: 36px;
-    height: 36px;
 }
 
 hr.header-divider {
