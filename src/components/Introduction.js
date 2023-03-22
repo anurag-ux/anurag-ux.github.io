@@ -3,16 +3,15 @@ import Footer from "../components/Footer"
 import './stylesheets/Introduction.css'
 
 function Introduction() {
-    const [designation, setDesignation] = useState("Product Manager");
-
+    const designations = ["Product Manager", "Frontend Developer", "Blockchain Developer"];
+    let currentDesignation = 0;
+    const [designation, setDesignation] = useState(designations[currentDesignation]);
+    
     useEffect(() => {
-        const designations = ["Product Manager", "Frontend Developer", "Blockchain Developer"];
-        let currentDesignation = 0;
         const interval = setInterval(() => {
-          // update designation text here
           setDesignation(designations[currentDesignation]);
           currentDesignation = (currentDesignation + 1) % designations.length;
-        }, 2000); // 2 seconds
+        }, 2000);
         return () => clearInterval(interval);
       }, []);
 
@@ -24,7 +23,7 @@ function Introduction() {
             </img>
             <div className='introduction'>
                 <p className='intro'>Hello! I Am
-                <span className='keyword' style={{'padding-left': '1%'}}>Anurag Shandilya</span>
+                <span className='keyword' style={{'paddingLeft': '1%'}}>Anurag Shandilya</span>
                 <Footer/>
                 </p>
             </div>

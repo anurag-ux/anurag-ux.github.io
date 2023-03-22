@@ -10,7 +10,8 @@
 .social-icons{
     padding-top: 5%;
     width: 100%;
-    transition: all 0.3s ease;
+    transform: scale(1);
+    transition: transform 0.3s ease-in;
 }
 .social{
     -webkit-box-align: center;
