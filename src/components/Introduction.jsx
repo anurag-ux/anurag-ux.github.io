@@ -32,9 +32,8 @@ function Introduction() {
                     I'm a <span className='designation keyword'>{designation}</span>
                 </p>
                 <p className='current-role'>
-                    Currently, I'm an Associate Product Manager at <img alt='logo' className='refactor-logo'
-                        src='https://gistcdn.githack.com/anurag-ux/e9d303f54f60b4006a220597efccbf04/raw/ad850c6f00d39f28f600e7f7139f18635eea3249/logo.svg' />
-                    Refactor Academy
+                    Currently, I work as a Product Owner at <img alt='logo' className='refactor-logo'
+                        src='https://gist.github.com/anurag-ux/eabbdac24254842fe4e8b1bca6410598/raw/3beaca2f5fad7398d07759865296a1e1da0668c4/logo.svg'/>
                 </p>
                 <p className='experience-description'>
                     A self-taught Software Developer & a PM, functioning in the industry for 1+ years now.
