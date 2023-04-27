@@ -3,33 +3,19 @@ import Footer from "./Footer"
 import './stylesheets/Introduction.css'
 
 function Introduction() {
-    const designations = ["Product Manager", "Frontend Developer", "Blockchain Developer"];
-    let currentDesignation = 0;
-    const [designation, setDesignation] = useState(designations[currentDesignation]);
-    
-    useEffect(() => {
-        const interval = setInterval(() => {
-          setDesignation(designations[currentDesignation]);
-          currentDesignation = (currentDesignation + 1) % designations.length;
-        }, 2000);
-        return () => clearInterval(interval);
-      }, []);
-      
-
     return (
         <div id='intro' className='main-introduction'>
             <img alt='main' className='main-picture'
                 src='https://gistcdn.githack.com/anurag-ux/a5340bb04294e23431da2c806f25ccb4/raw/e46ad68648e00f57707d51c9ce5f0417cb15b6bb/main-picture.svg'>
             </img>
             <div className='introduction'>
-                <p className='intro'>Hello! I Am
-                <span className='keyword' style={{'paddingLeft': '1%'}}>Anurag Shandilya</span>
+                <p className='intro'>Hello! I am<span className='keyword' style={{'paddingLeft': '1%'}}>Anurag Shandilya</span>
                 <Footer/>
                 </p>
             </div>
             <div className='experience'>
                 <p className='roles'>
-                    I'm a <span className='designation keyword'>{designation}</span>
+                    I'm a Product Manager
                 </p>
                 <p className='current-role'>
                     Currently, I work as a Product Owner at <img alt='logo' className='refactor-logo'

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ImageCarousel from './ImageCaraousel';
+import './stylesheets/Project.css';
 
 const Project = ({ projects }) => {
     const handleButtonClick = (event, url) => {
@@ -8,11 +9,13 @@ const Project = ({ projects }) => {
         window.open(url, "_blank");
     };
     return (
-        <div>
+        <div className='project-container'>
+            <h1 className='header-class'>Projects</h1>
+            <hr className='header-break'/>
             {projects.map(item => (
                 <div id="projects" className="container">
                     <div className="left-section">
-                        <h1 className='title'>{item["title"]}</h1>
+                        <h2 className='title'>{item["title"]}</h2>
                         <p className="description">{item["description"]}</p>
                         <div className="button-container">
                             {item["buttons"].map((button, index) => (

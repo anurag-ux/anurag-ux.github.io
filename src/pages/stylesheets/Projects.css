@@ -1,9 +1,9 @@
 .container {
     display: flex;
     padding: 0 10%;
-    padding-top: 5em;
+    padding-top: 2%;
     width: 80%;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
 }
 
 .left-section {
@@ -23,10 +23,10 @@
     padding-left: 0;
 }
 
-h1.title {
+h2.title {
     font-family: 'Quicksand';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     /* background: linear-gradient(4deg,rgba(67, 136, 221, 1), rgba(255, 69, 129, 1)); */
     background: white;
     -webkit-background-clip: text;
@@ -35,9 +35,8 @@ h1.title {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
-    font-size: 45px;
+    font-size: 35px;
     font-style: normal;
-    font-weight: 600;
     line-height: 51px;
     padding-top: 0;
     padding-bottom: 20px;
@@ -95,6 +94,7 @@ p.description {
     border-radius: 5%;
     width: 100%;
     transition: transform 0.2s ease-out;
+    margin-top: 7%;
 }
 
 .project-snap:hover {
@@ -108,4 +108,8 @@ p.description {
 
 .transition {
     transition: all 0.1s ease-in-out;
+}
+
+hr.header-break{
+    width: 80%;
 }

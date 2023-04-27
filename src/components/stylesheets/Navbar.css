@@ -80,10 +80,10 @@ nav a.download-resume:hover {
     transform: scale(1.1);
 }
 
-hr.header-divider {
+hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgb(36, 11, 59), rgba(255, 255, 255, 0.1));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgb(129, 29, 222,0.3), rgba(255, 255, 255, 0.1));
 }
 
 a {

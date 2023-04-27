@@ -1,0 +1,13 @@
+.header-class {
+    color: rgb(201, 236, 230);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 50px;
+    padding-top: 1%;
+    padding-left: 10%;
+    font-style: normal;
+}

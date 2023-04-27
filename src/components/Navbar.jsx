@@ -3,6 +3,11 @@ import React from "react";
 import './stylesheets/Navbar.css'
 
 function Navbar() {
+    const handleClickExperience = (event) => {
+        event.preventDefault();
+        const projects = document.getElementById("experience");
+        projects.scrollIntoView({ behavior: "smooth", block: "start" });
+      };
     const handleClickProjects = (event) => {
         event.preventDefault();
         const projects = document.getElementById("projects");
@@ -19,6 +24,9 @@ function Navbar() {
                 <ul className="navbar-list">
                     <li className="navbar-item">
                         <a href="/" className="navbar-link" onClick={handleClickHome}>Home</a>
+                    </li>
+                    <li className="navbar-item">
+                        <a href="/" className="navbar-link" onClick={handleClickExperience}>Experience</a>
                     </li>
                     <li className="navbar-item">
                         <a href="/" className="navbar-link" onClick={handleClickProjects}>Projects</a>
