@@ -12,7 +12,9 @@ function Landing() {
         <div className="landing">
             <Navbar />
             <Introduction />
+            <MoveToTopButton/>
             <Experience />
+            <Projects />
         </div>
     );
 }

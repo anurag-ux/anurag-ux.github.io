@@ -29,7 +29,6 @@ const Project = ({ projects }) => {
                             ))}
                         </div>
                     </div>
-                    <ImageCarousel images={item["caraousel-images"]} />
                 </div>
             ))
             }
