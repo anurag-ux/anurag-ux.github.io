@@ -18,6 +18,7 @@ nav {
 
 .navbar-item {
     margin: 0;
+    transition: transform 0.3s ease-in;
 }
 
 .navbar-link {
@@ -26,12 +27,22 @@ nav {
     color: #d7d5db;
     font-weight: 400;
     transition: color 0.3s ease;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    padding: 0.5em;
 }
 
 .navbar-link:hover {
     color: #d18b2e;
     text-decoration: none;
+    opacity: 0.75;
+    border: 1px solid white;
+    padding: 0.5em;
+    border-radius: 1em;
+    opacity: 0.75;
+}
+
+.navbar-item:hover{
+    transform: scale(1.2);
 }
 
 .download-resume {

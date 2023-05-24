@@ -10,7 +10,7 @@ function Projects() {
             "description": "Lendify is a decentralized, blockchain based platform that enables users to securely and transparently borrow and lend money to each other.",
             "buttons": [
                 {
-                    "redirectUrl": "https://shorturl.at/fltuW",
+                    "redirectUrl": "",
                     "iconImg": "https://gistcdn.githack.com/anurag-ux/dfa06de184d570a48cb56bed9f2f2c4f/raw/23d91c5659940eeb5ae493c9f9501172e8625489/doc.svg",
                     "buttonText": "PRD"
                 },
