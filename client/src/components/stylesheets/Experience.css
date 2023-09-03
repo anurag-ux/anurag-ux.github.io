@@ -56,10 +56,9 @@
 
 .experience-item-description li {
     font-family: 'DM Sans', sans-serif;
-    margin-left: 30px;
     line-height: 2;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 18px;
 }
 
@@ -128,10 +127,10 @@
     
     .experience-item-description li {
         font-family: 'DM Sans', sans-serif;
-        margin-left: 1em;
         line-height: 2;
         width: 90%;
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
         font-size: 18px;
     }
 }

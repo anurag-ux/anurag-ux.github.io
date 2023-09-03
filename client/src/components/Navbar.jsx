@@ -24,7 +24,7 @@ function Navbar() {
                         <a href="/" className="navbar-link" onClick={handleClickProjects}>Projects</a>
                     </li>
                     <li className="navbar-item">
-                        <a rel="noreferrer" className="navbar-link" href="https://shorturl.at/benOU" target="_blank">
+                        <a rel="noreferrer" className="navbar-link" href="https://drive.google.com/file/d/1DclPpSAc1LZuvj4YuNFfdgaD75M8CgfO/view?usp=sharing" target="_blank">
                             Resume
                         </a>
                     </li>
