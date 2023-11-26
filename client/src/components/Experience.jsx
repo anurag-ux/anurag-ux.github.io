@@ -9,7 +9,7 @@ const Experience = () => {
             <hr className='header-break' />
             <div className='experience-container'>
                 <div className="experience-item">
-                    <a href='http://pluralsight.com/' target="_blank"><h3 className="experience-company"><img alt='logo' className='pluralsight-logo'
+                    <a href='http://pluralsight.com/' target="_blank" rel="noreferrer"><h3 className="experience-company"><img alt='logo' className='pluralsight-logo'
                         src='https://gist.github.com/anurag-ux/eabbdac24254842fe4e8b1bca6410598/raw/3beaca2f5fad7398d07759865296a1e1da0668c4/logo.svg' /></h3></a>
                     <div className='employment-details'>
                         <h2 className="experience-title">Product Owner</h2>
@@ -26,7 +26,7 @@ const Experience = () => {
                 </div>
 
                 <div className="experience-item">
-                    <a href='https://www.refactor.academy/' target='_blank'><h3 className="experience-company"><img alt='logo' className='refactor-logo'
+                    <a href='https://www.refactor.academy/' target='_blank' rel="noreferrer"><h3 className="experience-company"><img alt='logo' className='refactor-logo'
                         src='https://gist.github.com/anurag-ux/e220e4578e8620aee022512f259d6bec/raw/e9d80785b19ec9660a29b2e8223c893361e01953/logo.svg' /></h3></a>
                     <div className='employment-details'>
                         <h2 className="experience-title">Associate Product Manager</h2>

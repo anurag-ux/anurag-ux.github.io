@@ -1,6 +1,4 @@
 import React from 'react';
-
-import ImageCarousel from './ImageCaraousel';
 import './stylesheets/Project.css';
 
 const Project = ({ projects }) => {
